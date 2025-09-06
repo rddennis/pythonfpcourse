@@ -1,8 +1,12 @@
 {
   "instructor": "Ronesha D. Dennis",
   "course": "Introduction to Python",
-  "teams": {
-    "FBI_Open_Up": 67,
-    "LALakers": 47
-  }
+  "teams": [
+    {"name": "FBI_Open_Up",
+      "score": 67,
+      "placement": 1},
+    {"name": "LA Lakers",
+      "score": 47,
+      "placement": 3}
+  ]
 }
