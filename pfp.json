@@ -3,10 +3,10 @@
   "course": "Introduction to Python",
   "teams": [
     {"name": "FBI_Open_Up",
-      "score": 67,
+      "current_score": 67,
       "placement": 1},
     {"name": "LA Lakers",
-      "score": 47,
+      "current_score": 47,
       "placement": 3}
   ]
 }
