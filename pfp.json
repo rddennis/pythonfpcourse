@@ -4,9 +4,61 @@
   "teams": [
     {"name": "FBI_Open_Up",
       "current_score": 67,
-      "placement": 1},
-    {"name": "LA Lakers",
+      "placement": 1,
+      "team_members": ["Cedrati","Said"]
+    },
+    {
+      "name": "GrizzlyBears",
+      "current_score": 64,
+      "placement": 2,
+      "team_members": ["Chergui","Safraoui"]
+    },
+    {
+      "name": "CyberStorm",
+      "current_score": 60,
+      "placement": 3,
+      "team_members": ["Yanis", "Aymen"]
+    }
+    {"name": "Anonymos",
       "current_score": 47,
-      "placement": 3}
+      "placement": 4,
+      "team_members": ["Djarir", "Oussama"]
+    },
+    {
+      "name": "Jack&Jane",
+      "current_score": 45,
+      "placement": 5,
+      "team_members": ["Adel", "Wafaa"]
+    },
+    {
+      "name": "LA Lakers",
+      "current_score": 29,
+      "placement": 6,
+      "team_members": ["Camelia", "Samy"]
+    },
+    {
+      "name": "Dark_Defender",
+      "current_score": 25,
+      "placement": 7,
+      "team_members": ["Tchiko,", "Chaher"]
+    },
+    {
+      "name": "Ravens",
+      "current_score": 21,
+      "placement": 8,
+      "team_members": ["Khalid","Nacer"]
+    },
+    {
+      "name": "H4",
+      "current_score": 15,
+      "placement": 9,
+      "team_members": ["Hocine", "Hamid]
+    },
+    {
+      "name": "WDK (formerly known as IDK)",
+      "current_score": 15,
+      "placement": 10,
+      "team_members": ["Badro", "Nadir"]
+    }
   ]
 }
