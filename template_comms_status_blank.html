@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Communications Status Dashboard</title>
+  <style>
+    :root{
+      --bg:#0f172a; --panel:#111827; --muted:#94a3b8; --text:#e5e7eb;
+      --green:#16a34a; --yellow:#eab308; --red:#ef4444; --border:#1f2937; --chip:#0b1220;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#0b1220,#0f172a);font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);}
+    .container{max-width:1100px;margin:40px auto;padding:0 16px;}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;}
+    h1{font-size:28px;margin:0;letter-spacing:0.3px;}
+    .meta{color:var(--muted);font-size:14px}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin:18px 0 24px;}
+    .card{grid-column:span 4;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+    .card h3{margin:0 0 6px 0;font-size:14px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+    .stat{font-size:28px;font-weight:800}
+    .ok{color:var(--green)} .warn{color:var(--yellow)} .crit{color:var(--red)}
+    .table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+    table thead th{font-weight:600;text-align:left;font-size:12px;color:var(--muted);padding:12px;background:#0c1426;border-bottom:1px solid var(--border);}
+    table tbody td{padding:12px;border-bottom:1px solid var(--border);font-size:14px}
+    .badge{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+    .b-ok{background:rgba(22,163,74,.12);color:#34d399;border:1px solid rgba(22,163,74,.35)}
+    .b-warn{background:rgba(234,179,8,.12);color:#fde047;border:1px solid rgba(234,179,8,.35)}
+    .b-crit{background:rgba(239,68,68,.12);color:#fca5a5;border:1px solid rgba(239,68,68,.35)}
+    .chip{display:inline-block;background:var(--chip);border:1px solid var(--border);color:var(--muted);padding:2px 8px;border-radius:999px;font-size:12px}
+    .sla{color:var(--muted);font-size:13px}
+    .footer{margin-top:14px;color:var(--muted);font-size:12px;text-align:right}
+    @media (max-width:900px){.card{grid-column:span 6}}
+    @media (max-width:600px){.card{grid-column:span 12} table thead{display:none} table tr{display:block;margin-bottom:10px} table td{display:flex;justify-content:space-between} table td::before{content:attr(data-label);color:var(--muted);padding-right:10px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Communications Status</h1>
+        <div class="meta">
+          <!-- TODO: Insert generated_at and SLA targets here -->
+          Generated at: ______ • SLA P95 Latency: ____ ms • Packet Loss ≤ ____ %
+        </div>
+      </div>
+      <div class="sla">Total Systems: <strong><!-- TODO: insert systems count --></strong></div>
+    </header>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Online</h3>
+        <div class="stat ok">✅ <!-- TODO: insert ONLINE total --></div>
+      </div>
+      <div class="card">
+        <h3>Degraded</h3>
+        <div class="stat warn">⚠️ <!-- TODO: insert DEGRADED total --></div>
+      </div>
+      <div class="card">
+        <h3>Offline</h3>
+        <div class="stat crit">❌ <!-- TODO: insert OFFLINE total --></div>
+      </div>
+    </section>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>System</th>
+          <th>Region</th>
+          <th>Status</th>
+          <th>Latency</th>
+          <th>Jitter</th>
+          <th>Packet Loss</th>
+          <th>Owner</th>
+          <th>Checked</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- LOOP START: for each system in systems -->
+        <tr>
+          <td data-label="System"><span class="chip">SYS-XXXX</span> CommsNode-XX</td>
+          <td data-label="Region">REGION</td>
+          <td data-label="Status"><span class="badge b-ok">✅ ONLINE</span></td>
+          <td data-label="Latency">123 ms</td>
+          <td data-label="Jitter">12 ms</td>
+          <td data-label="Packet Loss">—</td>
+          <td data-label="Owner">NetworkOps • Amina</td>
+          <td data-label="Checked">2025-09-08T09:00:00</td>
+        </tr>
+        <!-- LOOP END -->
+      </tbody>
+    </table>
+
+    <div class="footer">Tip: color = status • badges = quick glance health</div>
+  </div>
+</body>
+</html>
