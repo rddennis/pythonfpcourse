@@ -1,0 +1,260 @@
+{
+  "week_start": "2025-09-01",
+  "week_end": "2025-09-07",
+  "participants": [
+    {
+      "name": "Amina B",
+      "activities": [
+        {
+          "participant": "Amina B",
+          "date": "2025-09-01",
+          "activity": "RUN",
+          "duration_min": 20,
+          "calories": 120,
+          "notes": "Evening session",
+          "location": "Gym A"
+        },
+        {
+          "participant": "Amina B",
+          "date": "2025-09-02",
+          "activity": "BIKE",
+          "duration_min": 23,
+          "calories": 133
+        },
+        {
+          "participant": "Amina B",
+          "date": "2025-09-03",
+          "activity": "SWIM",
+          "duration_min": 26,
+          "calories": 146
+        },
+        {
+          "participant": "Amina B",
+          "date": "2025-09-04",
+          "activity": "GYM",
+          "duration_min": 29,
+          "calories": 159
+        },
+        {
+          "participant": "Amina B",
+          "date": "2025-09-05",
+          "activity": "RUN",
+          "duration_min": 32,
+          "calories": 172,
+          "notes": "Evening session"
+        }
+      ]
+    },
+    {
+      "name": "Rachid K",
+      "activities": [
+        {
+          "participant": "Rachid K",
+          "date": "2025-09-01",
+          "activity": "BIKE",
+          "duration_min": 25,
+          "calories": 157
+        },
+        {
+          "participant": "Rachid K",
+          "date": "2025-09-02",
+          "activity": "SWIM",
+          "duration_min": 28,
+          "calories": 170
+        },
+        {
+          "participant": "Rachid K",
+          "date": "2025-09-03",
+          "activity": "GYM",
+          "duration_min": 31,
+          "calories": 183
+        },
+        {
+          "participant": "Rachid K",
+          "date": "2025-09-04",
+          "activity": "RUN",
+          "duration_min": 34,
+          "calories": 196,
+          "notes": "Evening session"
+        },
+        {
+          "participant": "Rachid K",
+          "date": "2025-09-05",
+          "activity": "BIKE",
+          "duration_min": 37,
+          "calories": 209,
+          "location": "Track"
+        }
+      ]
+    },
+    {
+      "name": "Nora S",
+      "activities": [
+        {
+          "participant": "Nora S",
+          "date": "2025-09-01",
+          "activity": "SWIM",
+          "duration_min": 30,
+          "calories": 194
+        },
+        {
+          "participant": "Nora S",
+          "date": "2025-09-02",
+          "activity": "GYM",
+          "duration_min": 33,
+          "calories": 207
+        },
+        {
+          "participant": "Nora S",
+          "date": "2025-09-03",
+          "activity": "RUN",
+          "duration_min": 36,
+          "calories": 220,
+          "notes": "Evening session"
+        },
+        {
+          "participant": "Nora S",
+          "date": "2025-09-04",
+          "activity": "BIKE",
+          "duration_min": 39,
+          "calories": 233,
+          "location": "Track"
+        },
+        {
+          "participant": "Nora S",
+          "date": "2025-09-05",
+          "activity": "SWIM",
+          "duration_min": 42,
+          "calories": 246
+        }
+      ]
+    },
+    {
+      "name": "Yacine L",
+      "activities": [
+        {
+          "participant": "Yacine L",
+          "date": "2025-09-01",
+          "activity": "GYM",
+          "duration_min": 35,
+          "calories": 231
+        },
+        {
+          "participant": "Yacine L",
+          "date": "2025-09-02",
+          "activity": "RUN",
+          "duration_min": 38,
+          "calories": 244,
+          "notes": "Evening session"
+        },
+        {
+          "participant": "Yacine L",
+          "date": "2025-09-03",
+          "activity": "BIKE",
+          "duration_min": 41,
+          "calories": 257,
+          "location": "Track"
+        },
+        {
+          "participant": "Yacine L",
+          "date": "2025-09-04",
+          "activity": "SWIM",
+          "duration_min": 44,
+          "calories": 270
+        },
+        {
+          "participant": "Yacine L",
+          "date": "2025-09-05",
+          "activity": "GYM",
+          "duration_min": 47,
+          "calories": 283
+        }
+      ]
+    },
+    {
+      "name": "Karima Z",
+      "activities": [
+        {
+          "participant": "Karima Z",
+          "date": "2025-09-01",
+          "activity": "RUN",
+          "duration_min": 40,
+          "calories": 268,
+          "notes": "Evening session"
+        },
+        {
+          "participant": "Karima Z",
+          "date": "2025-09-02",
+          "activity": "BIKE",
+          "duration_min": 43,
+          "calories": 281,
+          "location": "Track"
+        },
+        {
+          "participant": "Karima Z",
+          "date": "2025-09-03",
+          "activity": "SWIM",
+          "duration_min": 46,
+          "calories": 294
+        },
+        {
+          "participant": "Karima Z",
+          "date": "2025-09-04",
+          "activity": "GYM",
+          "duration_min": 49,
+          "calories": 307
+        },
+        {
+          "participant": "Karima Z",
+          "date": "2025-09-05",
+          "activity": "RUN",
+          "duration_min": 52,
+          "calories": 320,
+          "notes": "Evening session"
+        }
+      ]
+    },
+    {
+      "name": "Samir H",
+      "activities": [
+        {
+          "participant": "Samir H",
+          "date": "2025-09-01",
+          "activity": "BIKE",
+          "duration_min": 45,
+          "calories": 305,
+          "location": "Track"
+        },
+        {
+          "participant": "Samir H",
+          "date": "2025-09-02",
+          "activity": "SWIM",
+          "duration_min": 48,
+          "calories": 318
+        },
+        {
+          "participant": "Samir H",
+          "date": "2025-09-03",
+          "activity": "GYM",
+          "duration_min": 51,
+          "calories": 331
+        },
+        {
+          "participant": "Samir H",
+          "date": "2025-09-04",
+          "activity": "RUN",
+          "duration_min": 54,
+          "calories": 344,
+          "notes": "Evening session"
+        },
+        {
+          "participant": "Samir H",
+          "date": "2025-09-05",
+          "activity": "BIKE",
+          "duration_min": 57,
+          "calories": 357
+        }
+      ]
+    }
+  ]
+}

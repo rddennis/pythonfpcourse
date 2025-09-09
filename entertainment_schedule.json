@@ -1,0 +1,219 @@
+{
+  "week_of": "2025-09-08",
+  "timezone": "Africa/Algiers",
+  "events": [
+    {
+      "event_id": "EVT-200",
+      "name": "Indie Film Night",
+      "category": "MOVIE",
+      "datetime": "2025-09-06T14:00:00",
+      "organizer": {
+        "name": "Leila",
+        "contact": "events0@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-201",
+      "name": "FIFA Tournament",
+      "category": "GAME",
+      "datetime": "2025-09-06T20:00:00",
+      "location": "Rec Hall",
+      "organizer": {
+        "name": "Omar",
+        "contact": "events1@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-202",
+      "name": "Jazz Jam",
+      "category": "MUSIC",
+      "datetime": "2025-09-07T02:00:00",
+      "location": "Open Air Stage",
+      "organizer": {
+        "name": "Hana",
+        "contact": "events2@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-203",
+      "name": "Coding Meetup",
+      "category": "OTHER",
+      "datetime": "2025-09-07T08:00:00",
+      "organizer": {
+        "name": "Farid",
+        "contact": "events3@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-204",
+      "name": "Movie Marathon",
+      "category": "MOVIE",
+      "datetime": "2025-09-07T14:00:00",
+      "location": "Gymnasium",
+      "organizer": {
+        "name": "Imane",
+        "contact": "events4@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-205",
+      "name": "Board Game Bash",
+      "category": "GAME",
+      "datetime": "2025-09-07T20:00:00",
+      "location": "Auditorium 1",
+      "organizer": {
+        "name": "Leila",
+        "contact": "events0@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-206",
+      "name": "Rock Rehearsal",
+      "category": "MUSIC",
+      "datetime": "2025-09-08T02:00:00",
+      "organizer": {
+        "name": "Omar",
+        "contact": "events1@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-207",
+      "name": "Poetry Open Mic",
+      "category": "OTHER",
+      "datetime": "2025-09-08T08:00:00",
+      "location": "Open Air Stage",
+      "organizer": {
+        "name": "Hana",
+        "contact": "events2@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-208",
+      "name": "Documentary Premiere",
+      "category": "MOVIE",
+      "datetime": "2025-09-08T14:00:00",
+      "location": "Cafeteria",
+      "organizer": {
+        "name": "Farid",
+        "contact": "events3@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-209",
+      "name": "LAN Party",
+      "category": "GAME",
+      "datetime": "2025-09-08T20:00:00",
+      "organizer": {
+        "name": "Imane",
+        "contact": "events4@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-210",
+      "name": "Choir Practice",
+      "category": "MUSIC",
+      "datetime": "2025-09-09T02:00:00",
+      "location": "Auditorium 1",
+      "organizer": {
+        "name": "Leila",
+        "contact": "events0@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-211",
+      "name": "Trivia Night",
+      "category": "OTHER",
+      "datetime": "2025-09-09T08:00:00",
+      "location": "Rec Hall",
+      "organizer": {
+        "name": "Omar",
+        "contact": "events1@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-212",
+      "name": "Animation Shorts",
+      "category": "MOVIE",
+      "datetime": "2025-09-09T14:00:00",
+      "organizer": {
+        "name": "Hana",
+        "contact": "events2@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-213",
+      "name": "Retro Game Hour",
+      "category": "GAME",
+      "datetime": "2025-09-09T20:00:00",
+      "location": "Cafeteria",
+      "organizer": {
+        "name": "Farid",
+        "contact": "events3@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-214",
+      "name": "Acoustic Set",
+      "category": "MUSIC",
+      "datetime": "2025-09-10T02:00:00",
+      "location": "Gymnasium",
+      "organizer": {
+        "name": "Imane",
+        "contact": "events4@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-215",
+      "name": "Photography Talk",
+      "category": "OTHER",
+      "datetime": "2025-09-10T08:00:00",
+      "organizer": {
+        "name": "Leila",
+        "contact": "events0@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-216",
+      "name": "Classic Cinema",
+      "category": "MOVIE",
+      "datetime": "2025-09-10T14:00:00",
+      "location": "Rec Hall",
+      "organizer": {
+        "name": "Omar",
+        "contact": "events1@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-217",
+      "name": "Strategy Games",
+      "category": "GAME",
+      "datetime": "2025-09-10T20:00:00",
+      "location": "Open Air Stage",
+      "organizer": {
+        "name": "Hana",
+        "contact": "events2@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-218",
+      "name": "DJ Workshop",
+      "category": "MUSIC",
+      "datetime": "2025-09-11T02:00:00",
+      "organizer": {
+        "name": "Farid",
+        "contact": "events3@example.org"
+      }
+    },
+    {
+      "event_id": "EVT-219",
+      "name": "Community Talent Show",
+      "category": "OTHER",
+      "datetime": "2025-09-11T08:00:00",
+      "location": "Gymnasium",
+      "organizer": {
+        "name": "Imane",
+        "contact": "events4@example.org"
+      }
+    }
+  ]
+}

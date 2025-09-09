@@ -1,0 +1,684 @@
+{
+  "generated_at": "2025-09-08T09:00:00",
+  "sla_targets": {
+    "latency_ms_p95": 120,
+    "packet_loss_pct": 1.0
+  },
+  "systems": [
+    {
+      "system_id": "SYS-1000",
+      "name": "CommsNode-00",
+      "region": "NA-EAST",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Amina",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 15,
+        "jitter_ms": 1,
+        "packet_loss_pct": 0.0
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-00",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T08:00:00"
+    },
+    {
+      "system_id": "SYS-1001",
+      "name": "CommsNode-01",
+      "region": "NA-WEST",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Youssef",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 22,
+        "jitter_ms": 4
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-01",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T08:11:00"
+    },
+    {
+      "system_id": "SYS-1002",
+      "name": "CommsNode-02",
+      "region": "EU-CENTRAL",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Karim",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 29,
+        "jitter_ms": 7,
+        "packet_loss_pct": 1.0
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-02",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T08:22:00"
+    },
+    {
+      "system_id": "SYS-1003",
+      "name": "CommsNode-03",
+      "region": "EU-WEST",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Nadia",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 36,
+        "jitter_ms": 10
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-03",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T08:33:00"
+    },
+    {
+      "system_id": "SYS-1004",
+      "name": "CommsNode-04",
+      "region": "MENA-NORTH",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Salim",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 43,
+        "jitter_ms": 13,
+        "packet_loss_pct": 2.0
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-04",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T08:44:00"
+    },
+    {
+      "system_id": "SYS-1005",
+      "name": "CommsNode-05",
+      "region": "AF-WEST",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Amina",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 50,
+        "jitter_ms": 16
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-05",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T08:55:00"
+    },
+    {
+      "system_id": "SYS-1006",
+      "name": "CommsNode-06",
+      "region": "APAC-SOUTH",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Youssef",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 57,
+        "jitter_ms": 19,
+        "packet_loss_pct": 0.5
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-06",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T09:06:00"
+    },
+    {
+      "system_id": "SYS-1007",
+      "name": "CommsNode-07",
+      "region": "NA-EAST",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Karim",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 64,
+        "jitter_ms": 22
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-07",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T09:17:00"
+    },
+    {
+      "system_id": "SYS-1008",
+      "name": "CommsNode-08",
+      "region": "NA-WEST",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Nadia",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 71,
+        "jitter_ms": 25,
+        "packet_loss_pct": 1.5
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-08",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T09:28:00"
+    },
+    {
+      "system_id": "SYS-1009",
+      "name": "CommsNode-09",
+      "region": "EU-CENTRAL",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Salim",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 78,
+        "jitter_ms": 28
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-09",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T09:39:00"
+    },
+    {
+      "system_id": "SYS-1010",
+      "name": "CommsNode-10",
+      "region": "EU-WEST",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Amina",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 85,
+        "jitter_ms": 31,
+        "packet_loss_pct": 0.0
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-10",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T09:50:00"
+    },
+    {
+      "system_id": "SYS-1011",
+      "name": "CommsNode-11",
+      "region": "MENA-NORTH",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Youssef",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 92,
+        "jitter_ms": 34
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-11",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T10:01:00"
+    },
+    {
+      "system_id": "SYS-1012",
+      "name": "CommsNode-12",
+      "region": "AF-WEST",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Karim",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 99,
+        "jitter_ms": 37,
+        "packet_loss_pct": 1.0
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-12",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T10:12:00"
+    },
+    {
+      "system_id": "SYS-1013",
+      "name": "CommsNode-13",
+      "region": "APAC-SOUTH",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Nadia",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 106,
+        "jitter_ms": 40
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-13",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T10:23:00"
+    },
+    {
+      "system_id": "SYS-1014",
+      "name": "CommsNode-14",
+      "region": "NA-EAST",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Salim",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 113,
+        "jitter_ms": 3,
+        "packet_loss_pct": 2.0
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-14",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T10:34:00"
+    },
+    {
+      "system_id": "SYS-1015",
+      "name": "CommsNode-15",
+      "region": "NA-WEST",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Amina",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 120,
+        "jitter_ms": 6
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-15",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T10:45:00"
+    },
+    {
+      "system_id": "SYS-1016",
+      "name": "CommsNode-16",
+      "region": "EU-CENTRAL",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Youssef",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 127,
+        "jitter_ms": 9,
+        "packet_loss_pct": 0.5
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-16",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T10:56:00"
+    },
+    {
+      "system_id": "SYS-1017",
+      "name": "CommsNode-17",
+      "region": "EU-WEST",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Karim",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 134,
+        "jitter_ms": 12
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-17",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T11:07:00"
+    },
+    {
+      "system_id": "SYS-1018",
+      "name": "CommsNode-18",
+      "region": "MENA-NORTH",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Nadia",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 141,
+        "jitter_ms": 15,
+        "packet_loss_pct": 1.5
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-18",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T11:18:00"
+    },
+    {
+      "system_id": "SYS-1019",
+      "name": "CommsNode-19",
+      "region": "AF-WEST",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Salim",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 148,
+        "jitter_ms": 18
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-19",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T11:29:00"
+    },
+    {
+      "system_id": "SYS-1020",
+      "name": "CommsNode-20",
+      "region": "APAC-SOUTH",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Amina",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 155,
+        "jitter_ms": 21,
+        "packet_loss_pct": 0.0
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-20",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T11:40:00"
+    },
+    {
+      "system_id": "SYS-1021",
+      "name": "CommsNode-21",
+      "region": "NA-EAST",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Youssef",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 162,
+        "jitter_ms": 24
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-21",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T11:51:00"
+    },
+    {
+      "system_id": "SYS-1022",
+      "name": "CommsNode-22",
+      "region": "NA-WEST",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Karim",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 169,
+        "jitter_ms": 27,
+        "packet_loss_pct": 1.0
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-22",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T12:02:00"
+    },
+    {
+      "system_id": "SYS-1023",
+      "name": "CommsNode-23",
+      "region": "EU-CENTRAL",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Nadia",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 176,
+        "jitter_ms": 30
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-23",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T12:13:00"
+    },
+    {
+      "system_id": "SYS-1024",
+      "name": "CommsNode-24",
+      "region": "EU-WEST",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Salim",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 183,
+        "jitter_ms": 33,
+        "packet_loss_pct": 2.0
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-24",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T12:24:00"
+    },
+    {
+      "system_id": "SYS-1025",
+      "name": "CommsNode-25",
+      "region": "MENA-NORTH",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Amina",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 190,
+        "jitter_ms": 36
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-25",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T12:35:00"
+    },
+    {
+      "system_id": "SYS-1026",
+      "name": "CommsNode-26",
+      "region": "AF-WEST",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Youssef",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 197,
+        "jitter_ms": 39,
+        "packet_loss_pct": 0.5
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-26",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T12:46:00"
+    },
+    {
+      "system_id": "SYS-1027",
+      "name": "CommsNode-27",
+      "region": "APAC-SOUTH",
+      "owner": {
+        "team": "NetworkOps",
+        "primary_contact": {
+          "name": "Karim",
+          "email": "team0@example.org"
+        }
+      },
+      "status": "ONLINE",
+      "metrics": {
+        "latency_ms": 204,
+        "jitter_ms": 2
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-27",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T12:57:00"
+    },
+    {
+      "system_id": "SYS-1028",
+      "name": "CommsNode-28",
+      "region": "NA-EAST",
+      "owner": {
+        "team": "FieldOps",
+        "primary_contact": {
+          "name": "Nadia",
+          "email": "team1@example.org"
+        }
+      },
+      "status": "OFFLINE",
+      "metrics": {
+        "latency_ms": 211,
+        "jitter_ms": 5,
+        "packet_loss_pct": 1.5
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-28",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T13:08:00"
+    },
+    {
+      "system_id": "SYS-1029",
+      "name": "CommsNode-29",
+      "region": "NA-WEST",
+      "owner": {
+        "team": "SatOps",
+        "primary_contact": {
+          "name": "Salim",
+          "email": "team2@example.org"
+        }
+      },
+      "status": "DEGRADED",
+      "metrics": {
+        "latency_ms": 218,
+        "jitter_ms": 8
+      },
+      "links": {
+        "grafana": "https://monitoring.example.org/d/comm-29",
+        "runbook": "https://intra.example.org/runbooks/comms"
+      },
+      "last_checked": "2025-09-08T13:19:00"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "report_date": "2025-09-08",
+  "source": "Automated Sensor Net v2",
+  "locations": [
+    {
+      "region": "North",
+      "city": "Algiers",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 13,
+        "condition": "STORM"
+      },
+      "alerts": {
+        "hazard": true,
+        "notes": "Thunderstorm risk"
+      },
+      "observed_at": "2025-09-08T06:13:00"
+    },
+    {
+      "region": "North",
+      "city": "Blida",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 16,
+        "condition": "CLOUDY",
+        "wind_kph": 13
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T06:26:00"
+    },
+    {
+      "region": "North",
+      "city": "Tizi Ouzou",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 19,
+        "condition": "RAINY",
+        "visibility_km": 9
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T06:39:00"
+    },
+    {
+      "region": "North",
+      "city": "Tipaza",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 22,
+        "condition": "SNOW",
+        "wind_kph": 21
+      },
+      "alerts": {
+        "hazard": true,
+        "notes": "Snow accumulation"
+      },
+      "observed_at": "2025-09-08T06:52:00"
+    },
+    {
+      "region": "North",
+      "city": "Boumerdes",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 25,
+        "condition": "SUNNY"
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T07:05:00"
+    },
+    {
+      "region": "West",
+      "city": "Oran",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 28,
+        "condition": "STORM",
+        "wind_kph": 29,
+        "visibility_km": 3
+      },
+      "alerts": {
+        "hazard": true,
+        "notes": "Thunderstorm risk"
+      },
+      "observed_at": "2025-09-08T07:18:00"
+    },
+    {
+      "region": "West",
+      "city": "Mostaganem",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 31,
+        "condition": "CLOUDY"
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T07:31:00"
+    },
+    {
+      "region": "West",
+      "city": "Tlemcen",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 34,
+        "condition": "RAINY",
+        "wind_kph": 37
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T07:44:00"
+    },
+    {
+      "region": "West",
+      "city": "Sidi Bel Abb\u00e8s",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 37,
+        "condition": "SNOW",
+        "visibility_km": 9
+      },
+      "alerts": {
+        "hazard": true,
+        "notes": "Snow accumulation"
+      },
+      "observed_at": "2025-09-08T07:57:00"
+    },
+    {
+      "region": "West",
+      "city": "Mascara",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 40,
+        "condition": "SUNNY",
+        "wind_kph": 45
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T08:10:00"
+    },
+    {
+      "region": "East",
+      "city": "Constantine",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 11,
+        "condition": "STORM"
+      },
+      "alerts": {
+        "hazard": true,
+        "notes": "Thunderstorm risk"
+      },
+      "observed_at": "2025-09-08T08:23:00"
+    },
+    {
+      "region": "East",
+      "city": "Annaba",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 14,
+        "condition": "CLOUDY",
+        "wind_kph": 53,
+        "visibility_km": 3
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T08:36:00"
+    },
+    {
+      "region": "East",
+      "city": "Setif",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 17,
+        "condition": "RAINY"
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T08:49:00"
+    },
+    {
+      "region": "East",
+      "city": "Skikda",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 20,
+        "condition": "SNOW",
+        "wind_kph": 6
+      },
+      "alerts": {
+        "hazard": true,
+        "notes": "Snow accumulation"
+      },
+      "observed_at": "2025-09-08T09:02:00"
+    },
+    {
+      "region": "East",
+      "city": "Guelma",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 23,
+        "condition": "SUNNY",
+        "visibility_km": 9
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T09:15:00"
+    },
+    {
+      "region": "South",
+      "city": "Tamanrasset",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 26,
+        "condition": "STORM",
+        "wind_kph": 14
+      },
+      "alerts": {
+        "hazard": true,
+        "notes": "Thunderstorm risk"
+      },
+      "observed_at": "2025-09-08T09:28:00"
+    },
+    {
+      "region": "South",
+      "city": "Adrar",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 29,
+        "condition": "CLOUDY"
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T09:41:00"
+    },
+    {
+      "region": "South",
+      "city": "Illizi",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 32,
+        "condition": "RAINY",
+        "wind_kph": 22,
+        "visibility_km": 3
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T09:54:00"
+    },
+    {
+      "region": "South",
+      "city": "In Salah",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 35,
+        "condition": "SNOW"
+      },
+      "alerts": {
+        "hazard": true,
+        "notes": "Snow accumulation"
+      },
+      "observed_at": "2025-09-08T10:07:00"
+    },
+    {
+      "region": "South",
+      "city": "Gharda\u00efa",
+      "country": "DZ",
+      "metrics": {
+        "temp_c": 38,
+        "condition": "SUNNY",
+        "wind_kph": 30
+      },
+      "alerts": {
+        "hazard": false,
+        "notes": ""
+      },
+      "observed_at": "2025-09-08T10:20:00"
+    }
+  ]
+}
